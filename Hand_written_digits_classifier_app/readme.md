@@ -1,0 +1,87 @@
+🧠 Handwritten Digit Recognition (MNIST)
+
+This is a Streamlit web application that uses a trained Artificial Neural Network (ANN) to recognize handwritten digits (0–9) based on the MNIST dataset.
+
+Users can upload an image of a handwritten digit, and the model predicts the digit along with class probabilities.
+
+🚀 Features
+
+Upload handwritten digit images (PNG / JPG / JPEG)
+
+Preprocessing consistent with MNIST dataset
+
+Real-time digit prediction
+
+Probability distribution for all digits (0–9)
+
+Simple and interactive Streamlit UI
+
+🛠 Tech Stack
+
+Python
+
+TensorFlow / Keras
+
+Streamlit
+
+NumPy
+
+Pillow (PIL)
+
+📂 Project Structure
+mnist_streamlit_app/
+│
+├── app.py                     # Streamlit application
+├── mnist_ann_model.keras      # Trained ANN model
+├── requirements.txt           # Dependencies
+└── README.md                  # Project documentation
+
+
+📤 How It Works
+
+User uploads a handwritten digit image
+
+Image is converted to grayscale and resized to 28×28
+
+Pixel values are normalized (0–1)
+
+Image is passed to the trained ANN model
+
+Model predicts the digit and probabilities
+
+📊 Model Performance
+
+Accuracy: ~98%
+
+Balanced precision, recall, and F1-score across all classes
+
+Regularized ANN with smooth training and validation loss curves
+
+📌 Notes
+
+Best results are obtained with clear, centered digit images
+
+Background inversion is handled internally to match MNIST style
+
+👨‍💻 Author
+
+Developed as a practice project for learning:
+
+Deep Neural Networks
+
+Model regularization
+
+Model deployment using Streamlit
+
+Test the app
+
+sample image links: 
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeOqjUXvXE0bIyCvdp5gyrAOnVPVsD9d_9gg&s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypGAtGpzAWSIR4UTKjYh7coTjV8sVZE5nPg&s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7s63KeUWO4VVh0uJ3nqKp2JyQsBgEhbcZUg&s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_sRP1sdXkDvP7Llam7H6MbPFKGk6Dxz4sMOkqOkbRA&s
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCCerwGTaiiQiYXQs5nGd-3fOfcW2NTRhdg&s
+
+visit below websites for more test images: 
+https://www.hackersrealm.net/post/mnist-handwritten-digits-recognition-using-python
+https://blog.otoro.net/assets/20160401/png/mnist_dream_24.png
