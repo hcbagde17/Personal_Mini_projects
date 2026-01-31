@@ -80,7 +80,7 @@ mnist_streamlit_app/
 ### External Websites for More Test Images
 
 * [https://www.hackersrealm.net/post/mnist-handwritten-digits-recognition-using-python](https://www.hackersrealm.net/post/mnist-handwritten-digits-recognition-using-python)
-* [https://blog.otoro.net/assets/20160401/png/mnist_dream_24.png](https://blog.otoro.net/assets/20160401/png/mnist_dream_24.png)
+* [https://blog.otoro.net/2016/04/01/generating-large-images-from-latent-vectors/](https://blog.otoro.net/assets/20160401/png/mnist_dream_24.png)
 
 ---
 
